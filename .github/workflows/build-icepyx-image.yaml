@@ -1,0 +1,19 @@
+name: Test Building Icepyx Image
+on: [push] # You may want to trigger this Action on other things than a push.
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: checkout files in repo
+      uses: actions/checkout@v2
+
+    - name: Test Build
+      uses: jupyterhub/repo2docker-action@0.2
+      with:
+        DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+
+        # FIXME: change to the actual values
+        IMAGE_NAME: ICEPYX/ICEPYX_IMAGE
+        NO_PUSH: true

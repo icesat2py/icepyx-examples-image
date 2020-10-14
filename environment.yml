@@ -1,0 +1,13 @@
+name: icepyx-examples-image
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - numpy
+  - xarray
+  - pandas
+  - h5py
+  - glob
+  - rasterio
+  - geopandas
+  - matplotlib
