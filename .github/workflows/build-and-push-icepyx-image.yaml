@@ -1,5 +1,6 @@
 name: Build and Push Icepyx Image
-on: [push] # You may want to trigger this Action on other things than a push.
+on: [push]
+
 jobs:
   build:
     runs-on: ubuntu-latest
