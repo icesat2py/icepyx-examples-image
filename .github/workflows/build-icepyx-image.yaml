@@ -16,5 +16,5 @@ jobs:
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
 
         # FIXME: change to the actual values
-        IMAGE_NAME: ICEPYX/ICEPYX_IMAGE
+        IMAGE_NAME: icepyx-test-image
         NO_PUSH: true
