@@ -11,4 +11,4 @@ dependencies:
   - geopandas
   - matplotlib
   - pip:
-    -r file:requirements.txt
+    - -r file:requirements.txt
