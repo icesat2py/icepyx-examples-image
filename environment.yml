@@ -10,3 +10,5 @@ dependencies:
   - rasterio
   - geopandas
   - matplotlib
+  - pip:
+    -r file:requirements.txt
