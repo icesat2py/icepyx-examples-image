@@ -7,6 +7,7 @@ dependencies:
   - xarray
   - pandas
   - h5py
+  - icepyx
   - rasterio
   - geopandas
   - matplotlib
