@@ -2,16 +2,16 @@ name: icepyx-examples-image
 channels:
   - conda-forge
 dependencies:
-  - python=3.7
   - contextily
-  - numpy
-  - xarray
-  - pandas
+  - geopandas
   - h5py
   - icepyx
-  - rasterio
-  - geopandas
-  - matplotlib
   - lxml
+  - matplotlib
+  - numpy
+  - pandas
+  - python=3.9
+  - rasterio
+  - xarray
   - pip:
     - -r file:requirements.txt
