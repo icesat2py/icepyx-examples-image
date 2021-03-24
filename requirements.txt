@@ -1,1 +1,0 @@
-git+https://github.com/ICESAT-2HackWeek/topohack.git#egg=topohack
