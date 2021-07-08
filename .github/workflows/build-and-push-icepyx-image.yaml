@@ -10,7 +10,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Build and Push
-      uses: jupyterhub/repo2docker-action@0.2
+      uses: jupyterhub/repo2docker-action@60c656a681c89b894235972a82a4b4da9beddbb4
       with:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
